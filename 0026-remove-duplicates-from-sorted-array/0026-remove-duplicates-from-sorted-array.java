@@ -1,15 +1,19 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
+        // Guard clause for null or empty array
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
         int n = nums.length;
         int i = 0;
         int j = 1;
-        while(j<n){
-            if(nums[i]!=nums[j]){
+        while (j < n) {
+            if (nums[i] != nums[j]) {
                 i++;
-                nums[i]=nums[j];
+                nums[i] = nums[j];
             }
             j++;
         }
-    return i+1;
+        return i + 1;
     }
 }
