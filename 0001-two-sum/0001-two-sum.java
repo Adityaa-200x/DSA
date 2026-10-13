@@ -1,30 +1,25 @@
-    //    int n = nums.length;
-    //    for(int i=0; i<n; i++){
-    //         for(int j=i+1 ;j<n; j++){
-    //             if(nums[i]+nums[j]==target){
-    //                 int []ans = {i,j};
-    //                 return ans;
-    //             }
-    //         }
-    //    }
-    //     int []ans = {};
-    //     return ans;        
 import java.util.*;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        // hashmap method 
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int n = nums.length;
-        for (int i = 0; i < n; i++) {
-            int numneed = target - nums[i];
-            if (map.containsKey(numneed)) {
-                int[] ans = {map.get(numneed), i};
-                return ans;
+        // Guard against null or insufficient input
+        if (nums == null || nums.length < 2) {
+            return new int[0];
+        }
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            // Use long to avoid overflow when computing the needed complement
+            long needLong = (long) target - (long) nums[i];
+            if (needLong >= Integer.MIN_VALUE && needLong <= Integer.MAX_VALUE) {
+                int need = (int) needLong;
+                if (map.containsKey(need)) {
+                    return new int[] { map.get(need), i };
+                }
             }
+            // Store the current number and its index
             map.put(nums[i], i);
         }
-        int[] ans = {};
-        return ans;
+        // No solution found – return empty array as per original contract
+        return new int[0];
     }
 }
