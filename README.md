@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/paneertikkadedo/DSA/tree/master/0200-number-of-islands) |
 | [0268-missing-number](https://github.com/paneertikkadedo/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/paneertikkadedo/DSA/tree/master/0283-move-zeroes) |
+| [0410-split-array-largest-sum](https://github.com/paneertikkadedo/DSA/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/paneertikkadedo/DSA/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/paneertikkadedo/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/paneertikkadedo/DSA/tree/master/0704-binary-search) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/paneertikkadedo/DSA/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/paneertikkadedo/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/paneertikkadedo/DSA/tree/master/0152-maximum-product-subarray) |
+| [0410-split-array-largest-sum](https://github.com/paneertikkadedo/DSA/tree/master/0410-split-array-largest-sum) |
 ## Math
 |  |
 | ------- |
@@ -92,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/paneertikkadedo/DSA/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/paneertikkadedo/DSA/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/paneertikkadedo/DSA/tree/master/0268-missing-number) |
+| [0410-split-array-largest-sum](https://github.com/paneertikkadedo/DSA/tree/master/0410-split-array-largest-sum) |
 | [0704-binary-search](https://github.com/paneertikkadedo/DSA/tree/master/0704-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/paneertikkadedo/DSA/tree/master/0852-peak-index-in-a-mountain-array) |
 ## Bit Manipulation
@@ -102,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/paneertikkadedo/DSA/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/paneertikkadedo/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/paneertikkadedo/DSA/tree/master/0724-find-pivot-index) |
 ## Quicksort
@@ -172,4 +176,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/paneertikkadedo/DSA/tree/master/0547-number-of-provinces) |
+## Greedy
+|  |
+| ------- |
+| [0410-split-array-largest-sum](https://github.com/paneertikkadedo/DSA/tree/master/0410-split-array-largest-sum) |
 <!---LeetCode Topics End-->
