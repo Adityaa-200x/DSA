@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/paneertikkadedo/DSA/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/paneertikkadedo/DSA/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/paneertikkadedo/DSA/tree/master/0189-rotate-array) |
+| [0200-number-of-islands](https://github.com/paneertikkadedo/DSA/tree/master/0200-number-of-islands) |
 | [0268-missing-number](https://github.com/paneertikkadedo/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/paneertikkadedo/DSA/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/paneertikkadedo/DSA/tree/master/0485-max-consecutive-ones) |
@@ -125,12 +126,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/paneertikkadedo/DSA/tree/master/0112-path-sum) |
+| [0200-number-of-islands](https://github.com/paneertikkadedo/DSA/tree/master/0200-number-of-islands) |
 | [0257-binary-tree-paths](https://github.com/paneertikkadedo/DSA/tree/master/0257-binary-tree-paths) |
 | [0547-number-of-provinces](https://github.com/paneertikkadedo/DSA/tree/master/0547-number-of-provinces) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/paneertikkadedo/DSA/tree/master/0112-path-sum) |
+| [0200-number-of-islands](https://github.com/paneertikkadedo/DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/paneertikkadedo/DSA/tree/master/0547-number-of-provinces) |
 ## Binary Tree
 |  |
@@ -141,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/paneertikkadedo/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/paneertikkadedo/DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/paneertikkadedo/DSA/tree/master/0547-number-of-provinces) |
 ## String
 |  |
@@ -155,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/paneertikkadedo/DSA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/paneertikkadedo/DSA/tree/master/0054-spiral-matrix) |
+| [0200-number-of-islands](https://github.com/paneertikkadedo/DSA/tree/master/0200-number-of-islands) |
 ## Ternary Search
 |  |
 | ------- |
