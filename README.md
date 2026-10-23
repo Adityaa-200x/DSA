@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/paneertikkadedo/DSA/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/paneertikkadedo/DSA/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/paneertikkadedo/DSA/tree/master/0485-max-consecutive-ones) |
+| [0542-01-matrix](https://github.com/paneertikkadedo/DSA/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/paneertikkadedo/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/paneertikkadedo/DSA/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/paneertikkadedo/DSA/tree/master/0724-find-pivot-index) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/paneertikkadedo/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/paneertikkadedo/DSA/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/paneertikkadedo/DSA/tree/master/0410-split-array-largest-sum) |
+| [0542-01-matrix](https://github.com/paneertikkadedo/DSA/tree/master/0542-01-matrix) |
 ## Math
 |  |
 | ------- |
@@ -138,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0112-path-sum](https://github.com/paneertikkadedo/DSA/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/paneertikkadedo/DSA/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/paneertikkadedo/DSA/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/paneertikkadedo/DSA/tree/master/0547-number-of-provinces) |
 ## Binary Tree
 |  |
@@ -164,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/paneertikkadedo/DSA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/paneertikkadedo/DSA/tree/master/0054-spiral-matrix) |
 | [0200-number-of-islands](https://github.com/paneertikkadedo/DSA/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/paneertikkadedo/DSA/tree/master/0542-01-matrix) |
 ## Ternary Search
 |  |
 | ------- |
