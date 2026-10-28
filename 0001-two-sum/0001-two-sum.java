@@ -1,30 +1,23 @@
-    //    int n = nums.length;
-    //    for(int i=0; i<n; i++){
-    //         for(int j=i+1 ;j<n; j++){
-    //             if(nums[i]+nums[j]==target){
-    //                 int []ans = {i,j};
-    //                 return ans;
-    //             }
-    //         }
-    //    }
-    //     int []ans = {};
-    //     return ans;        
 import java.util.*;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        // hashmap method 
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int n = nums.length;
-        for (int i = 0; i < n; i++) {
-            int numneed = target - nums[i];
-            if (map.containsKey(numneed)) {
-                int[] ans = {map.get(numneed), i};
-                return ans;
-            }
-            map.put(nums[i], i);
+        // Validate input
+        if (nums == null || nums.length < 2) {
+            throw new IllegalArgumentException("Input array must contain at least two elements.");
         }
-        int[] ans = {};
-        return ans;
+        // hashmap method
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            Integer prevIndex = map.get(complement);
+            if (prevIndex != null) {
+                return new int[]{prevIndex, i};
+            }
+            // Store only the first occurrence to keep the earliest index
+            map.putIfAbsent(nums[i], i);
+        }
+        // If no solution is found, signal the error explicitly
+        throw new IllegalArgumentException("No two-sum solution exists for the given input.");
     }
 }
