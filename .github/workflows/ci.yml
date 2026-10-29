@@ -24,10 +24,17 @@ jobs:
       - name: Compile Java Sources
         run: |
           echo "=== CI-Doctor: Scanning and Compiling Java Source Files ==="
-          find . -name "*.java" > sources.txt
-          if [ -s sources.txt ]; then
-            javac -cp . @sources.txt
-            echo "SUCCESS: All Java sources compiled without syntax or type errors."
-          else
-            echo "No Java source files found."
+          FAILURES=0
+          while IFS= read -r f; do
+            echo "Compiling: $f"
+            if ! javac "$f"; then
+              echo "COMPILATION_ERROR in $f"
+              FAILURES=$((FAILURES + 1))
+            fi
+          done < <(find . -name "*.java")
+
+          if [ $FAILURES -gt 0 ]; then
+            echo "❌ CI FAILED: $FAILURES Java file(s) failed compilation."
+            exit 1
           fi
+          echo "SUCCESS: All Java sources compiled without syntax or type errors."
