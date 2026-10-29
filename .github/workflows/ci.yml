@@ -1,0 +1,33 @@
+name: CI Build & Test
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    name: Java Compilation & Integrity Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Compile Java Sources
+        run: |
+          echo "=== CI-Doctor: Scanning and Compiling Java Source Files ==="
+          find . -name "*.java" > sources.txt
+          if [ -s sources.txt ]; then
+            javac -cp . @sources.txt
+            echo "SUCCESS: All Java sources compiled without syntax or type errors."
+          else
+            echo "No Java source files found."
+          fi
