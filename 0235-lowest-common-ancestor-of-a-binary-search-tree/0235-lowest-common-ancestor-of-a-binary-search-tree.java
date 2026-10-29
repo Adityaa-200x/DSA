@@ -1,45 +1,40 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
 
 class Solution {
     /**
      * Finds the lowest common ancestor (LCA) of two nodes in a Binary Search Tree.
      * Utilizes the BST property where left subtree values < root value < right subtree values.
-     * 
+     *
      * @param root The root node of the BST
      * @param p First target node
      * @param q Second target node
-     * @return The lowest common ancestor node of p and q
+     * @return The lowest common ancestor node of p and q, or null if not found
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        // Find the minimum and maximum values between p and q for comparison
+        if (root == null || p == null || q == null) {
+            return null;
+        }
         int minValue = Math.min(p.val, q.val);
         int maxValue = Math.max(p.val, q.val);
-      
-        // Traverse the tree iteratively
-        while (true) {
-            // If current node value is less than both p and q,
-            // LCA must be in the right subtree
+        // Traverse the tree iteratively until we find the split point or reach null
+        while (root != null) {
             if (root.val < minValue) {
+                // Both nodes are in the right subtree
                 root = root.right;
-            } 
-            // If current node value is greater than both p and q,
-            // LCA must be in the left subtree
-            else if (root.val > maxValue) {
+            } else if (root.val > maxValue) {
+                // Both nodes are in the left subtree
                 root = root.left;
-            } 
-            // Current node is between p and q (inclusive),
-            // so it must be the LCA
-            else {
+            } else {
+                // Current node is between p and q (inclusive) => LCA found
                 return root;
             }
         }
+        // If we exit the loop, no common ancestor was found (should not happen per problem constraints)
+        return null;
     }
 }
