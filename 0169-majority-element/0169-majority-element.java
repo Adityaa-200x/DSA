@@ -1,19 +1,20 @@
 class Solution {
     public int majorityElement(int[] nums) {
-        // moore's voting algo
-        int candidate = nums[0];
+        if (nums == null || nums.length == 0) {
+            throw new IllegalArgumentException("Input array must be non-empty");
+        }
+        int candidate = 0;
         int votes = 0;
-        for(int i=0; i<nums.length; i++){
-            if(candidate == nums[i]){
+        for (int num : nums) {
+            if (votes == 0) {
+                candidate = num;
+                votes = 1;
+            } else if (candidate == num) {
                 votes++;
-            }
-            else if (votes == 0){
-                candidate = nums[i];
-            }
-            else{
+            } else {
                 votes--;
             }
         }
-    return candidate;
+        return candidate;
     }
 }
