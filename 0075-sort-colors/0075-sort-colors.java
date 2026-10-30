@@ -1,7 +1,11 @@
 import java.util.Arrays;
 
-public class Solution {
+class Solution {
     public void sortColors(int[] nums) {
+        // Guard against null or trivial inputs
+        if (nums == null || nums.length <= 1) {
+            return;
+        }
         int low = 0;
         int mid = 0;
         int high = nums.length - 1;
@@ -15,7 +19,7 @@ public class Solution {
             } else if (nums[mid] == 1) {
                 // Element is in the correct middle region, just move mid forward
                 mid++;
-            } else if (nums[mid] == 2) {
+            } else { // nums[mid] == 2
                 // Swap nums[mid] and nums[high], then move high backward
                 swap(nums, mid, high);
                 high--;
