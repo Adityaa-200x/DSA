@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-peak-index-in-a-mountain-array](https://github.com/paneertikkadedo/DSA/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1207-unique-number-of-occurrences](https://github.com/paneertikkadedo/DSA/tree/master/1207-unique-number-of-occurrences) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/paneertikkadedo/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [2126-destroying-asteroids](https://github.com/Adityaa-200x/DSA/tree/master/2126-destroying-asteroids) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/paneertikkadedo/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Dynamic Programming
 |  |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/paneertikkadedo/DSA/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/paneertikkadedo/DSA/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/paneertikkadedo/DSA/tree/master/0268-missing-number) |
+| [2126-destroying-asteroids](https://github.com/Adityaa-200x/DSA/tree/master/2126-destroying-asteroids) |
 ## Counting
 |  |
 | ------- |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/paneertikkadedo/DSA/tree/master/0410-split-array-largest-sum) |
+| [2126-destroying-asteroids](https://github.com/Adityaa-200x/DSA/tree/master/2126-destroying-asteroids) |
 ## Stack
 |  |
 | ------- |
