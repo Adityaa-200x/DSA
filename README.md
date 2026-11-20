@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/paneertikkadedo/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/paneertikkadedo/DSA/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/paneertikkadedo/DSA/tree/master/0724-find-pivot-index) |
+| [0735-asteroid-collision](https://github.com/Adityaa-200x/DSA/tree/master/0735-asteroid-collision) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/paneertikkadedo/DSA/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1207-unique-number-of-occurrences](https://github.com/paneertikkadedo/DSA/tree/master/1207-unique-number-of-occurrences) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/paneertikkadedo/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/paneertikkadedo/DSA/tree/master/0054-spiral-matrix) |
+| [0735-asteroid-collision](https://github.com/Adityaa-200x/DSA/tree/master/0735-asteroid-collision) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/paneertikkadedo/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2211-count-collisions-on-a-road](https://github.com/Adityaa-200x/DSA/tree/master/2211-count-collisions-on-a-road) |
 ## Tree
@@ -195,5 +197,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/Adityaa-200x/DSA/tree/master/0735-asteroid-collision) |
 | [2211-count-collisions-on-a-road](https://github.com/Adityaa-200x/DSA/tree/master/2211-count-collisions-on-a-road) |
 <!---LeetCode Topics End-->
